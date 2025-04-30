@@ -1,4 +1,4 @@
-import streamlit as st
+from global_variables import *
 
 st.set_page_config(
     page_title="Scrappuccino",
