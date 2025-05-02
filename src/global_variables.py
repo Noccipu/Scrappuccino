@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
-from pyvis.network import Network
 import os
 import json
 import networkx as nx
 from streamlit.components.v1 import html
+from st_link_analysis import st_link_analysis, NodeStyle, EdgeStyle
 
 DEFAULT_DEPTH = 3
 MAX_DEPTH = 10

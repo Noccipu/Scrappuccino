@@ -1,7 +1,10 @@
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 from global_variables import *
+
+# Page config
+st.set_page_config(page_title="Search Properties", layout="wide")
+st.title("🔎 Search Properties")
 
 # Initialiser l'état global
 if 'articleCount' not in st.session_state:

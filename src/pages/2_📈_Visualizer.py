@@ -1,13 +1,8 @@
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from global_variables import *
-import streamlit as st
-import tempfile
-import os
-from pyvis.network import Network
-import networkx as nx
-from st_link_analysis import st_link_analysis, NodeStyle, EdgeStyle
 
+# Page config
 st.set_page_config(page_title="Visualizer", layout="wide")
 st.title("📈 Visualizer")
 
